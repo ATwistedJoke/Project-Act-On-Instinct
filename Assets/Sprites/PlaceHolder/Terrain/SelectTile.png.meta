@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 5e8fdbd82e7b3584e9c27aba624d72a3
+guid: 45236e9a9f975134b90bfb3f339f9280
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5635707571201100892
-    second: Terrain(PH)_0
+      213: 1748623301413810128
+    second: SelectTile_0
+  - first:
+      213: 8362643211307227301
+    second: SelectTile_1
+  - first:
+      213: -1691466038381605473
+    second: SelectTile_2
+  - first:
+      213: 601323172555310392
+    second: SelectTile_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -102,11 +111,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Terrain(PH)_0
+      name: SelectTile_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 32
+        y: 0
         width: 32
         height: 32
       alignment: 0
@@ -117,74 +126,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4a33490c2d1f9c1b0800000000000000
-      internalID: -5635707571201100892
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Terrain(PH)_1
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 64587c6880777084b833c57f776d148c
-      internalID: -1993620618
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Terrain(PH)_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2a5d6ffb7f7d9ac4a86e323f0189cb10
-      internalID: 1891324823
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Terrain(PH)_3
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1b74e0913583de44185df82ba28e31dc
-      internalID: 1050910273
+      spriteID: 0dfadb6c0ab544810800000000000000
+      internalID: 1748623301413810128
       vertices: []
       indices: 
       edges: []
@@ -193,7 +136,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 7aa738b3a8feb0449b5baf6f40e4f9d5
+    spriteID: 722a6e3b8787ac8409d19954a4a682ad
     internalID: 0
     vertices: []
     indices: 
@@ -205,10 +148,7 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Terrain(PH)_0: -5635707571201100892
-      Terrain(PH)_1: -1993620618
-      Terrain(PH)_2: 1891324823
-      Terrain(PH)_3: 1050910273
+      SelectTile_0: 1748623301413810128
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
