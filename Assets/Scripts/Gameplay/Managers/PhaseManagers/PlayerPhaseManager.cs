@@ -1,16 +1,18 @@
 using UnityEngine;
+using System.Collections;
 
 public class PlayerPhaseManager : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public int validUnits;
+
+    void OnEnable()
     {
-        
+        Debug.Log("Player Phase Manager Enabled");
+        validUnits = GameManager.Instance.playerUnits.Length;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+       
     }
 }

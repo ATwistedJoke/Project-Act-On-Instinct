@@ -25,7 +25,7 @@ public class MapManager : MonoBehaviour
 
     public void InitializeMap()
     {
-        var tileMap = gameObject.GetComponentInChildren<Tilemap>(); 
+        var tileMap = gameObject.GetComponentInChildren<Grid>().GetComponentInChildren<Tilemap>(); 
         BoundsInt bounds = tileMap.cellBounds; 
         for(int z = bounds.max.z; z >= bounds.min.z; z--){
             for(int x = bounds.max.x; x >= bounds.min.x; x--){
