@@ -6,5 +6,4 @@ public class Unit : MonoBehaviour
     public int hp; 
     public int atk;
     
-    
 }

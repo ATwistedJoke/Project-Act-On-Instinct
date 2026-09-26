@@ -9,8 +9,9 @@ public class MapManager : MonoBehaviour
     public static MapManager Instance {get {return _instance; } }
     public Tile TilePrefab; 
     public GameObject tileContainer; 
-    [System.NonSerialized] public Dictionary<Vector2Int, Tile> map = new Dictionary<Vector2Int, Tile>(); 
+    [NonSerialized] public Dictionary<Vector2Int, Tile> map = new Dictionary<Vector2Int, Tile>(); 
     public List<Sprite> sprites; 
+    public Tilemap tilemap; 
 
     public void Awake()
     {
